@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:mysql://47.100.122.108:3306/nideshop</property>
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+      <mapping class="com.seeyoo.bd.modle.NideshopAd"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopAd.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopAdPosition"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopAdPosition.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopAddress"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopAddress.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopAdmin"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopAdmin.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopAttribute"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopAttribute.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopAttributeCategory"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopAttributeCategory.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopBrand"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopBrand.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopCart"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopCart.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopCategory"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopCategory.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopChannel"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopChannel.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopCollect"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopCollect.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopComment"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopComment.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopCommentPicture"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopCommentPicture.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopCoupon"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopCoupon.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopFeedback"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopFeedback.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopFootprint"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopFootprint.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopGoods"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopGoods.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopGoodsAttribute"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopGoodsAttribute.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopGoodsGallery"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopGoodsGallery.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopGoodsIssue"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopGoodsIssue.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopGoodsSpecification"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopGoodsSpecification.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopKeywords"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopKeywords.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopOrder"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopOrder.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopOrderExpress"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopOrderExpress.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopOrderGoods"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopOrderGoods.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopProduct"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopProduct.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopRegion"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopRegion.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopRelatedGoods"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopRelatedGoods.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopSearchHistory"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopSearchHistory.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopShipper"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopShipper.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopSpecification"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopSpecification.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopTopic"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopTopic.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopTopicCategory"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopTopicCategory.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopUser"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopUser.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopUserCoupon"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopUserCoupon.hbm.xml"/>
+      <mapping class="com.seeyoo.bd.modle.NideshopUserLevel"/>
+      <mapping resource="com/seeyoo/bd/modle/NideshopUserLevel.hbm.xml"/>
+      <!-- <property name="connection.username"/> -->
+    <!-- <property name="connection.password"/> -->
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>
